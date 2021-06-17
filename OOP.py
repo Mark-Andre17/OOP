@@ -151,3 +151,12 @@ def get_avr_lec_grade(lector_list):
     for lecturer in lector_list:
         sum_grades += sum(lecturer.grades) / len(lecturer.grades)
     return round(sum_grades / len(lector_list), 2)
+
+
+
+print(hulk)
+print(tor)
+print(widow)
+print(tanos)
+print(capitan)
+print(ironman)
